@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quotes</title>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/main.css">
+  <link rel="shortcut icon" href="./Images/quote-left-solid.svg" type="image/x-icon">
+</head>
+<body>
+  
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-md-12 text-center my-4">
+        <div class="content">
+          <h2 class="fw-bold">Find Out Your Today's Quote</h2>
+          <button onclick="getQuote();" class="bttn my-3 px-4 py-2 rounded-pill"> Quote </button>
+          <p id="quoteOutput"></p>
+          <p id="authorOutput"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./JS/main.js"></script>
+  
+</body>
+</html>
